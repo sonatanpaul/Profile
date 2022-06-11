@@ -43,3 +43,35 @@ h1 {
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.area-item {
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 10px 10px gray;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#part-one {
+    border-left: 8px solid;
+    border-image: linear-gradient(orange, cyan);
+    border-image-slice: 1;
+}
+
+#part-two {
+    border-left: 8px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
